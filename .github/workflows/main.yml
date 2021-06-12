@@ -16,4 +16,4 @@ jobs:
         with:
           args: deploy --only hosting --message \"${{ github.event.head_commit.message }}\"
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_EMBREE_PERSONAL_WEBSITE }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
